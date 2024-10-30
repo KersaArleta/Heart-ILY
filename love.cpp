@@ -15,13 +15,13 @@ int main()
         for(float x = -1.2; x <= 1.2; x += 0.025) {
             // Persamaan matematika untuk membentuk hati
             if(pow((x * x + y * y - 1.0), 3) - (x * x * y * y * y) <= 0.0) {
-                cout << s[index % s.size()]; // Mencetak karakter dari string secara berulang
+                cout << s[index % s.size()]; 
                 index++;
             } else {
-                cout << ' '; // Mencetak spasi untuk area di luar bentuk hati
+                cout << ' '; 
             }
         }
-        cout << endl; // Pindah ke baris baru setelah setiap baris selesai
+        cout << endl; 
     }
     
     return 0;
